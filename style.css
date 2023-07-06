@@ -1,0 +1,89 @@
+body{
+    margin: 0;
+    font-family: Helvertica Neue, Helvertica, Arial, Helvetica, sans-serif;
+}
+
+.header{
+    background-color: #3b5998;
+    width: 100%;
+    height: 85px;
+
+}
+.logo{
+    width: 50%;
+    padding-top: 32px;
+    float: left;
+
+}
+
+.login{
+    width: 50%;
+    float: left;
+    padding-top: 10px;
+
+}
+.text-logo{
+    color: white;
+    font-size: 34px;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: Helvertica Neue, Helvertica, Arial, Helvetica, sans-serif;
+    margin-left: 170px;
+}
+
+.login-label{
+    color: white;
+    font-size: 11px;
+}
+
+.login-controls{
+    margin-left: 115px;
+
+}
+
+.forgotten{
+    color: #9cb4d8;
+    font-size: 13px;
+    text-decoration: none;
+}
+.sub-btn{
+    background-color: #4267b2;
+    color: white;
+    height: 20px;
+    border-color: #29487d;
+    cursor: pointer;
+
+}
+
+.sub-btn:hover{
+    background-color: red;
+}
+
+.left-section{
+    width: 50%;
+    float: left;
+    padding-left: 134px;
+    padding-top: 52px;
+
+}
+
+.right-section{
+    width: 50%;
+    float: left;
+
+
+}
+.main-body{
+    background-color: linear-gradient(white, #d3d6e8);
+    width: 100%;
+
+}
+
+.image{
+    width: 581px;
+}
+
+.para{
+    font-weight: bold;
+    font-size: 21px;
+}
