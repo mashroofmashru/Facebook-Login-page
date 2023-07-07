@@ -3,46 +3,90 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FaceBook</title>
-    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>Facebook--log in sign up</title>
+    <link rel="icon" type="image/x-icon" href="https://www.facebook.com/images/fb_icon_325x325.png">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
 </head>
 <body>
-    <div class="Container">
-        <div class="header">
-            <div class="logo">
-                <a class="text-logo" href="#">facebook</a>
-            </div>
-            <div class="login">
-                <form action="">
-                    <table class="login-controls">
-                        <tr>
-                            <td><label class="login-label">Email or Mobile</label></td>
-                            <td><label class="login-label">Password</label></td>
-                        </tr>
-                        <tr>
-                            <td><input type="text"></td>
-                            <td><input type="text"></td>
-                            <td><input class="sub-btn" type="submit" value="login"></td>
-                        </tr>
-                        <tr>
-                            <td></td>
-                            <td ><a href="#" class="forgotten">Forgotten Account</a></td>
-                        </tr>
-                    </table>
-                </form>
-
-            </div>
-
-        </div>
+    <div class="container">
         <div class="main-body">
-            <div class="left-section">
-                <p class="para">Facebook helps you connect and share with the <br> people in your life.</p>
-                <img class="image" src="image/facebook-related-news-headlines-background-photo-new-friends-global-communication-social-network-global-connecting-36091939.jpg " alt="">
-
+            <div class="left-side">
+               <div class="logo-para">
+                <img class="logo" src="image/facebooklogo.svg" alt="facebooklogo">
+                <p class="para">Facebook helps you connect and share <br> with the people in your life.</p>
+               </div>
             </div>
-            <div class="right-section">
-                
-
+            <div class="right-side">
+                <div class="form-box">
+                    <input type="text" class="form" placeholder="Email address or phone number" aria-label="Email address or phone number">
+                    <input type="text" class="form" placeholder="Password" aria-label="Password">
+                    <input class="sub-btn" type="submit" value="Log in">
+                    <div class="forgotten">
+                        <a href="#" class="forgotten-text">Forgotten password?</a>
+                    </div>
+                    <div id="Curve-form"></div>
+                    <input class="creat-ac" type="button" value="Create new account">
+                </div>
+                <p class="text-underForm"><a href="#" class="create-page">Create a Page </a>for a celebrity, brand or business.</p>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="lang">
+                <tr>
+                 <td class="language-Eng" >English (UK)</td>
+                 <td><a class="language"  href="https://ml-in.facebook.com/" title="Malayalam">മലയാളം</a></td>
+                 <td><a class="language"  href="https://ta-in.facebook.com/" title="Tamil">தமிழ்</a></td>
+                 <td><a class="language"  href="https://kn-in.facebook.com/" title="Kannada">ಕನ್ನಡ</a></td>
+                 <td><a class="language"  href="https://hi-in.facebook.com/" title="Hindi">हिन्दी</a></td>
+                 <td><a class="language"  href="https://ur-pk.facebook.com/" title="Urdu">اردو</a></td>
+                 <td><a class="language"  href="https://bn-in.facebook.com/" title="Bengali">বাংলা</a></td>
+                 <td><a class="language"  href="https://te-in.facebook.com/" title="Telugu">తెలుగు</a></td>
+                 <td class="language"><button>+</button></td> 
+                </tr>
+            </div>
+            <div id="contentCurve"></div>
+            <div class="table">
+                <table>
+                    <tr>
+                       <td><a class="ftr-txt"  href="#" >Login</a></td>
+                       <td><a class="ftr-txt"  href="#" >Messenger </a></td>
+                       <td><a class="ftr-txt"  href="#" >Facebook</a></td>
+                       <td><a class="ftr-txt"  href="#" >LiteWatch</a></td>
+                       <td><a class="ftr-txt"  href="#" >Places</a></td>
+                      <td><a class="ftr-txt"  href="#" >Games</a></td>
+                      <td><a class="ftr-txt"  href="#" >Marketplace</a></td>
+                      <td><a class="ftr-txt"  href="#" > Meta </a></td>
+                      <td><a class="ftr-txt"  href="#" >PayMeta</a></td>
+                      <td><a class="ftr-txt"  href="#" >StoreMeta</a></td>
+                      <td><a class="ftr-txt"  href="#" >Quest</a></td>
+                      <td><a class="ftr-txt"  href="#" >Instagram</a></td>
+                      <td><a class="ftr-txt"  href="#" >Fundraisers</a></td>
+                      <td><a class="ftr-txt"  href="#" >Services </a></td>
+                   </tr>
+                   <tr>
+                    <td><a class="ftr-txt"  href="#" >Voting</a></td>
+                    <td><a class="ftr-txt"  href="#" >Information</a></td>
+                    <td><a class="ftr-txt"  href="#" >CentrePrivacy</a></td>
+                    <td><a class="ftr-txt"  href="#" >PolicyPrivacy</a></td>
+                    <td><a class="ftr-txt"  href="#" >Centre</a></td>
+                    <td><a class="ftr-txt"  href="#" >Groups</a></td>
+                    <td><a class="ftr-txt"  href="#" >About</a></td>
+                    <td><a class="ftr-txt"  href="#" >Create ad</a></td>
+                    <td><a class="ftr-txt"  href="#" >Create Page</a></td>
+                    <td><a class="ftr-txt"  href="#" >Developers</a></td>
+                    <td><a class="ftr-txt"  href="#" >Careers</a></td>
+                    <td><a class="ftr-txt"  href="#" >Cookies</a></td>
+                    <td><a class="ftr-txt"  href="#" >AdChoices</a></td>
+                    <td><a class="ftr-txt"  href="#" > Terms </a></td>
+                  </tr>
+                </table>
+                <table>
+                 <tr>
+                    <td><a class="ftr-txt"  href="#" >Help</a></td>
+                    <td><a class="ftr-txt"  href="#" >Contact uploading and non-users</a></td>
+                 </tr>
+                </table>
+                <p class="copy"> meta &copy; 2022</p>
             </div>
         </div>
     </div>
